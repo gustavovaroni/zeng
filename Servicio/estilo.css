@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(32, 180, 199);
+    background-size: cover;
+}
+header{
+    background-color: rgba(71, 163, 151, 0.85);
+    height: 87px;
+    width: 100%;
+    display: flex;
+}
+header img{
+    float: left;
+}
+header h1{
+    position: relative; left: 500px; top: 20px;
+    font-size: 40px;
+}
+header nav{
+    float: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 8px;
+    position: relative; left: 650px; top: 30px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: azure;
+}
+nav a:hover{
+    color: black;
+}
+main{
+    width: 100%;
+    height: 850px;
+}
+.imgArmados{
+    position: absolute; top: 725px; right: 50px;
+}
+.pArmados{
+    position: absolute; top: 720px; left: 4px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.imgMinero{
+    position: absolute; top: 1300px;
+}
+.pMinero{
+    position: absolute; top: 1320px; right: 94px;
+    font-size: 31px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hMinero{
+    position: absolute; top: 1480px; right: 465px;
+    font-size: 30px;
+}
+.ulMinero{
+    position: absolute; top: 1520px; right: 65px;
+    font-size: 26px;
+    line-height: 48px;
+    font-family: sans-serif;
+}
+footer{
+    width: 100%; height: 130px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    position: absolute; top: 1880px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+    display: block;
+    line-height: 25px;
+}
+footer h4{
+    font-size: 24px;
+}
